@@ -307,9 +307,14 @@ main.cardsContent section.cardAtual {
     background:  #1b1538;
 }
 
-main.cardsContent section.cardAulas {
-    
+main.cardsContent section.cardAtual span {
+    margin-top: 10px;
 }
+
+
+/* main.cardsContent section.cardAulas {
+    
+} */
 
 main.cardsContent section.card:first-child {
     margin-left: 0;
@@ -353,6 +358,10 @@ main.cardsContent section.card button {
     transition: all .3s ease-in-out;
 }
 
+main.cardsContent section.cardAtual button {
+    margin-top: 2.9rem;
+}
+
 main.cardsContent section.card button:hover {
     background: #00C0A4;
 }
@@ -375,7 +384,7 @@ main.cardsContent section.card button:hover {
     }
 
     main.cardsContent section.card:first-child {
-        margin-top: 700px;
+        margin-top: 2650px;
     }
 
     main.cardsContent section.card:last-child {
