@@ -32,7 +32,7 @@ function enter(){
     }
 
     if (user.value == userValid.user && pass.value == userValid.pass){
-        window.location.href = "http://127.0.0.1:5500/home.html"
+        window.location.href = "/home.html"
         let token = Math.random().toString(16).substring(2)
         localStorage.setItem('token', token)
 
